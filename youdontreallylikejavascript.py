@@ -1,13 +1,11 @@
 import praw
 import pdb
-import re
-import os
 import sys
 
 from reply_to_posts import replyToPost
 from reply_to_comments import replyToComment
 
-botName = "YDRL JS 1.0 - You don't really like javascript"
+botName = "YDRL JS 0.1 - You don't really like javascript"
 reddit = praw.Reddit('youdontreallylikejs')
 answer = "NO! You dont!"
 query = "I love javascript|I like javascript|I like JS|I love JS"
